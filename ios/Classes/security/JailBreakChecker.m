@@ -28,6 +28,9 @@
       || access("/usr/libexec/cydia/firmware.sh", F_OK) != -1
       || access("/Library/MobileSubstrate/MobileSubstrate.dylib", F_OK) != -1
       || access("/Library/MobileSubstrate/DynamicLibraries/*", F_OK) != -1
+      || access("/Library/BawAppie/ABypass", F_OK) != -1
+      || access("/Library/BawAppie", F_OK) != -1
+      || access("/Library/BawAppie/*", F_OK) != -1
       || access("/System/Library/LaunchDaemons/com.ikey.bbot.plist", F_OK) != -1
       || access("/System/Library/LaunchDaemons/com.saurik.Cydia.Startup.plist", F_OK) != -1
       || access("/bin/sh", F_OK) != -1
